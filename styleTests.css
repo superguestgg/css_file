@@ -1,0 +1,62 @@
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #D3D3D3; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+.text {
+    /* It’s a match */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 20px;
+/* identical to box height */
+
+color: #000000;
+
+}
+/* The navigation menu links */
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav img {
+    width: 30%;
+    margin-left: 30%; /* отступ от левого края */
+    margin-top: 20px; /* отступ сверху */
+    margin-bottom: 20px; /* отступ снизу */
+}
+
+#logo {
+    width: 50%;
+    margin-left: 25%; /* отступ от левого края */
+    margin-top: 20px; /* отступ сверху */
+    margin-bottom: 20px; /* отступ снизу */
+}
+
+/* Style page content */
+.main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+
+.test{
+    background-color: #818181;
+    height: 100px;
+}
